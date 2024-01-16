@@ -4,10 +4,13 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
-/* header section */
+
+
+                /* HEADER SECTION */
 header{
     padding: 50px 135px;
 }
+/* NAV */
 nav{
     display: flex;
     justify-content: space-between;
@@ -113,16 +116,60 @@ ul >li >a{
     text-align: center;
 }
 
+
 /* header responsive */
 @media screen and (max-width: 600px) {
-    .banner-container{
-        /* display: flex;
-        flex-direction: column; */
+    header{
+        padding: 20px 25px;
+    }
+    nav > ul{
+        flex-direction: row;
+        margin-top: 250px;
+        margin-left: -200px;
+    }
+    ul >li >a{
+        text-decoration: none;
+        margin-right: 1.5rem;
+    }
+    .banner-container img{
+        width: 100%;
+        height: fit-content;
+    }
+    .banner-form{
+        position: relative;
+        margin-top: 180px;
+        margin-left: 50px;
+        padding: 16px;
+        gap: 24px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }
+    .banner-form input{
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    .banner-form button{
+        width: 300px; 
+    }
+    .nav-logo-title{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .banner-container h1{
+        position: relative;
+        margin-top: -170px;
+        margin-left: 50px;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 40px;
     }
 }
 
 
-/* popular-toursm section */
+
+
+                /*  POPULAR TOURISM SECTION */
 .popular-tours{
     display: flex;
     padding: 50px 135px;
@@ -140,7 +187,6 @@ ul >li >a{
     line-height: normal;
 }
 .popular-text p{
-    /* width: 560px; */
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
@@ -149,7 +195,6 @@ ul >li >a{
     line-height: 26px;
 }
 .popular-text > ul >li{
-    /* width: 520px; */
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 16px;
@@ -169,8 +214,6 @@ ul >li >a{
     font-weight: 800;
 }
 .popular-image img{
-    /* width: 100%;
-    height: 100%; */
     max-width: 100%;
     height: auto;
     display: block;
@@ -182,13 +225,10 @@ ul >li >a{
     .popular-tours{
         max-width: 600px;
         min-width: fit-content;
-        /* margin: 0 auto; */
-        /* display: flex; */
         flex-direction: column;
         padding: 0px;
     }
     .popular-text{
-        /* border: 5px solid black; */
         max-width: 500px;
         min-width: fit-content;
     }
@@ -198,8 +238,6 @@ ul >li >a{
         margin: auto;
         text-align: center;
         margin-bottom: 10px;
-        /* width: 50%; */
-        /* width: 300px; */
     }
     .popular-text p{
         font-size: 18px;
@@ -207,21 +245,12 @@ ul >li >a{
         height: auto;
         margin: auto;
         display: block;
-        /* width: 50%; */
-        /* width: 300px; */
-        /* border: 5px solid red; */
     }
     .popular-text > ul >li{
         max-width: 500px;
-        /* width: 50%; */
-        /* width: 250px; */
     }
     .btn-container{
         margin: 3rem;
-    }
-    .popular-text button{
-        /* padding: 20px; */
-        /* width: 50%; */
     }
     .popular-image img{
         max-width: 500px;
@@ -230,7 +259,7 @@ ul >li >a{
 }
 
 
-/* IMAGE COLLAGE START */
+                /* IMAGE COLLAGE START */
 .collage-text{
     width: 580px;
     display:flex;
@@ -255,7 +284,7 @@ ul >li >a{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
 }
 .collage-image{
     display: grid;
@@ -336,7 +365,7 @@ ul >li >a{
 }
 
 
-/* WHY CHOSE US */
+                /* WHY CHOSE US STARTED */
 .chose{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -442,7 +471,7 @@ ul >li >a{
 
 
 
-/* NEWSLETTER SECTION STARTED */
+                /* NEWSLETTER SECTION STARTED */
 .newsletter{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -464,6 +493,7 @@ form input{
     height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    text-align: center;
 }
 .form-box button{
     width: 393px;
@@ -482,7 +512,7 @@ margin-top: 20px;
     height: 420px;
     padding-top: 40px;
 }
-/* newslwtter flex */
+/* newsletter flex */
 .newsletter{
     display: flex;
     justify-content: center;
@@ -504,7 +534,7 @@ margin-top: 20px;
 
 
 
-/* footer section start */
+                /* FOOTER SECTION STARTED */
 footer{
     min-width: 960px;
     display: flex;
