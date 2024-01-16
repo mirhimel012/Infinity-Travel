@@ -471,10 +471,19 @@ ul >li >a{
 
 
                 /* MY FRAME SECTION STARTED */
+.frame-title h1{
+    text-align: center;
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}                
 .my-frame{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 15px;
+    justify-content: center;
 }
  /* responsive */
  @media screen and (max-width: 600px) {
